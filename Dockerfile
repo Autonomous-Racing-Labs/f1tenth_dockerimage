@@ -8,5 +8,5 @@ RUN apt-get update && apt-get install -y \
 	liblua5.2-0 lua5.2 libprotobuf-dev libcairo2-dev \
 	libpcl-conversions-dev ros-iron-pcl-conversions protobuf-compiler \
 	libasio-dev nano ros-iron-udp-msgs ros-iron-ackermann-msgs screen \
-	ros-iron-joy-linux ros-iron-slam-toolbox ros-iron-navigation2 \
+	ros-iron-joy-linux ros-iron-slam-toolbox ros-iron-navigation2 ros-iron-serial-driver \
 	&& rm -rf /var/lib/apt/lists/*
